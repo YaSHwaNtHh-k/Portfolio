@@ -122,7 +122,16 @@ nav{
     width: 50%;
     padding: 0  25vw 0 0 ;
 }
-
+.right-about button{
+    border: 1px solid black;
+    padding: .7vh 1vw;
+    margin: 1vh 5vw;
+    border-radius: 2rem;
+}
+.right-about button:hover{
+    background-color: red;
+    color: white;
+}
 /* Projects */
 .projects{
     height: 60vh;
@@ -345,6 +354,10 @@ form textarea{
     }
     br{
         display: none;
+    }
+    .right-about button{
+        padding: .7vh 2vw;
+        margin: 2vh 27vw;
     }
 
     /* Projects */
